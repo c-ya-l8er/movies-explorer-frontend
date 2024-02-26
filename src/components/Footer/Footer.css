@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   justify-content: space-between;
-  margin: 0 auto;
+
   padding: 79px 70px 20px;
   grid-template-areas:
     "title title"
@@ -58,9 +58,8 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 420px) {
   .footer {
-    max-width: 320px;
     padding: 79px 10px 20px;
     justify-content: center;
     grid-template-areas:

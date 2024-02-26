@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Promo.css";
 import PromoLogo from "../../images/promo-logo.svg";
@@ -6,9 +5,9 @@ import PromoLogo from "../../images/promo-logo.svg";
 function Promo() {
   return (
     <section className='promo'>
-        <h1 className='promo__title'>
+        <h2 className='promo__title'>
           Учебный проект студента факультета Веб-&#8288;разработки.
-        </h1>
+        </h2>
         <p className='promo__subtitle'>
           Листайте ниже, чтобы узнать больше про этот проект и его создателя.
         </p>
